@@ -4,18 +4,35 @@ body {
 
 h1 {
 	font-family: Georgia, serif;
-	font-size: 24px;
+	font-size: 30px;
 	color: indigo;
 }
 
 h2 {
 	font-family: Georgia, serif;
-	font-size: 18px;
+	font-size: 24px;
 	color: indigo;
 }
 
 p {
 	font-family: Georgia, serif;
-	font-size: 13px;
+	font-size: 16px;
 	color: blue;
+	float: right;
+}
+
+li {
+	display: inline;
+	border: 3px solid indigo;
+	background-color: lightblue;
+	padding: 6px;
+	margin: 10px;
+	color: blue;
+}
+
+img {
+	display: block;
+	border: 3px solid indigo;
+	height: 200px;
+	float: left;
 }
