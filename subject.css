@@ -26,12 +26,20 @@ li {
 	background-color: lightblue;
 	padding: 6px;
 	margin: 10px;
-	color: blue;
+	color: indigo;
 }
 
 img {
-	display: block;
 	border: 3px solid indigo;
-	height: 200px;
-	float: left;
+}
+
+a {
+	color: blue
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
