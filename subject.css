@@ -21,11 +21,10 @@ p {
 }
 
 li {
-	border: 3px solid indigo;
 	background-color: lightblue;
 	padding: 6px;
 	margin: 10px;
-	color: indigo;
+	color: #C5C6C7;
 }
 
 img {
