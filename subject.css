@@ -45,4 +45,9 @@ a {
 
 .page {
 	display: inline;
+	border: 3px solid indigo;
+	background-color: lightblue;
+	padding: 6px;
+	margin: 10px;
+	color: indigo;
 }
