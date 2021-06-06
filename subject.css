@@ -1,23 +1,23 @@
 body {
-	background-color: lightblue;
+	background-color: #0B0C10;
 }
 
 h1 {
 	font-family: Georgia, serif;
 	font-size: 30px;
-	color: indigo;
+	color: #66FCF1;
 }
 
 h2 {
 	font-family: Georgia, serif;
 	font-size: 24px;
-	color: indigo;
+	color: #66FCF1;
 }
 
 p {
 	font-family: Georgia, serif;
 	font-size: 16px;
-	color: blue;
+	color: #45A29E;
 }
 
 li {
@@ -53,13 +53,13 @@ a {
 }
 
 .topnav {
-    background-color: black;
+    background-color: #0B0C10;
     overflow: hidden;
 }
 
 .topnav a {
     float: left;
-    color: white;
+    color: #66FCF1;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -67,11 +67,11 @@ a {
 }
 
 .topnav a:hover {
-    background-color: white;
-    color: black;
+    background-color: #1F2833;
+    color: #45A29E;
 }
 
 .topnav a.active {
-    background-color: white;
-    color: black;
+    background-color: #1F2833;
+    color: #45A29E;
 }
