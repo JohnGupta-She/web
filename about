@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title>Explore the Game!</title>
+<link href="subject.css" rel="stylesheet">
+</head>
+
+<h1>Explore the Game!</h1>
+
+<nav class="pages">
+    <ol>
+        <li class="page"><a href= "https://johngupta-she.github.io/web/about.html">Explore the Game!</a></li>
+		<li class="page"><a href= "https://johngupta-she.github.io/web/classes.html">Classes</a></li>
+		<li class="page"><a href= "https://johngupta-she.github.io/web/dragons.html">Dragons</a></li>
+		<li class="page"><a href= "https://johngupta-she.github.io/web/RPG.zip">Download</a></li>
+		<li class="page"><a href= "https://www.youtube.com/watch?v=dQw4w9WgXcQ">CHEAT CODES</a></li>
+    </ol>
+</nav>
+
+<h2>Welcome to the World!</h2>
+<p>Hi! Welcome to the world of A GAME, ABOUT THINGS. The world has been swarmed by monsters and no one else is willing to stand up against them. Defeat the dragons that sit at the tope of the food chain to take back the world for the humans.</p>
+
+<p>But to do that you are going to have to get stronger. Much stronger. First, you have to choose what you are going to specialize in. Choose a class and aim to perfect your fighting style. Defeat enemies and gain experience points to become stronger. When you feel ready, challenge a dragon.</p>
+
+<p>Upon defeating a dragon, ancient curses will release, and your world will be propelled into the next phase. Tougher enemies will spawn and you will have to be stronger. When you gain the power necessary to defeat the final, strongest dragon challenge him and save the world.</p>
