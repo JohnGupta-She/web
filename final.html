@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title>Documentation</title>
+<link href="subject.css" rel="stylesheet">
+</head>
+
+<h1>A Game, About Things</h1>
+  <h2>John Gupta-She, Istab Rakin, Period 4</h2>
+<div class="topnav">
+  <a href= "https://johngupta-she.github.io/web/about.html">Explore the Game!</a>
+  <a href= "https://johngupta-she.github.io/web/classes.html">Classes</a>
+  <a href= "https://johngupta-she.github.io/web/dragons.html">Dragons</a>
+  <a href= "https://johngupta-she.github.io/web/unBalancedGame.zip" download>Download</a>
+  <a href= "https://www.youtube.com/watch?v=dQw4w9WgXcQ">CHEAT CODES</a>
+</div>
+
+<ul>
+  <li><h3><a href= "https://johngupta-she.github.io/web/unBalancedGame.zip" download>Project Link</a></h3></li>
+  <li><h3>Project Description</h3>
+    <p>This project would be a text-based RPG-esque game, where the player would be presented with options and has choices on what they should do. Should they fight, run, or heal? What items should you use? Every room you will have a random encounter for your phase of the game. When you beat them, you will gain a certain amount of experience. As you gain more experience and level up, you grow stronger as time goes on. When you feel ready, fight. Every time you beat a dragon, you propel your world further and gain buffs for your character. Stronger enemies will spawn and you will gain more gold. Face off against the final dragon in an epic battle, saving the world.</p>
+  </li>
+  <li><h3>Instructions</h3>
+    <p>To start playing the game, run the main.py file on your computer. Make sure that your computer has python installed. Python 3.9 is recommended. While in battle, you can follow the prompts to fight. Input a number to do the action that it corresponds to. You can also use !stats to view the stats of either you or your opponent. Have fun! </p>
+  </li>
+  <li><h3>How it works</h3>
+    <p>The game works by progressing rooms. In every room there is a chance that there is an ambient message (random choice by splitting a txt file), a healing zone, a treasure chest, or an enemy (random choice by splitting a csv file). Defeating an enemy grants you exp. With a certain amount of exp, you level up and become stronger. Every 25 rooms, you will have the option to challenge a dragon. Upon beating a dragon, you will gain certain combat boosts and propel your world into the next phase. Every new phase brings new enemies that are split from the aforementioned csv file. This csv file also contain their stats, which we randomize a bit upon picking it. When you spawn a dragon we also choose one randomly from this csv file and their stats are also included. The final dragon that you fight is always the Elder Dragon, which upon beating ends the game. Dying at any time also ends the game. Your stats are kept in a dictionary which we edit when you level up or use certain potions (random chance from treasure chests). Your base stats and stats upon leveling up are based on the class you choose at the beginning of the game. Upon recieving a potion, you put it in an inventory which is kept in a list. Your dragon combat boosts are also kept in a list.</p>
+  </li>
+  <li><h3>Files</h3>
+    <ul>
+      <li>final.html: This file.</li>
+      <li>about.html: The homepage html file.</li>
+      <li>classes.html: The html file that describes the different classes in the game.</li>
+      <li>dragons.html: The html file that describes the different dragons in the game.</li>
+      <li>subject.css: The css file that decorates all of the html files (including this one). I know it shares a name with the other css file, but we made many edits to make it look a lot better than before. Rather than a plain blue that it was before, we have a color scheme and a SUPER SICK NAV that Istab suggested.</li>
+      <li><a href= "https://johngupta-she.github.io/web/unBalancedGame.zip" download>the download</a> (Wasn't sure whether or not to include, so I did.)</li>
+      <li><a href= "https://www.youtube.com/watch?v=dQw4w9WgXcQ">https://www.youtube.com/watch?v=dQw4w9WgXcQ</a></li>
+      <li>RPGelements.csv: The csv of enemy stats.</li>
+      <li>classes.py: The py file that sets up everything to do with classes like spawning, working with stats, attacking, using items, and more. main.py calls upon it a lot. </li>
+      <li>main.py: The py file that runs the game. It deals with fighting, taking inputs, moving rooms, and more. Calls upon classes.py to execute the functions.</li>
+      <li>ambient.txt: The txt file that contains all of the ambient messages in empty rooms. Many of these were taken from Terraria, and we tried to emulate Terraria in the original ones.</li>
+      <li>death_messages.txt: The txt file that contains all of the death messages. Similarly to the ambient messages, they were mostly taken from Terraria, and the original ones were meant to emulate Terraria.</li>
+      <li>README.txt: The txt file that explains the instructions to running the game.</li>
+    </ul>
+  </li>
+  <li><h3>Resources</h3>
+    <ul>
+      <li>The fanart of the elder dragon: https://64.media.tumblr.com/f9c141e5191efd4bd7eda6f24578f7ad/tumblr_oza91gqwWN1u1m3q5o1_1280.png </li>
+    </ul>
+  </li>
+  <li><h3>Bugs, Errors and Things to be Aware of</h3>
+    <ul>
+      <li>Rounding errors in stats: Sometimes when you level up, the defense and crit stats won't round as intended, making them very long decimals.</li>
+      <li>Sometimes the player will go over max health when heailng, which is not intended.</li>
+    </ul>
+  </li>
+ </ul>
